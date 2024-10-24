@@ -10,7 +10,7 @@
 <h2>Prerequisites</h2>
 
 - <a href="https://github.com/a-rashid-saaka/Azure-VM-setup"> Azure VM setup and network configuration </a>
-- <a href="https://github.com/kirkgacias/ad-deployment-configuration"> Active Directory Deployment and Configuration </a>
+- <a href="https://github.com/a-rashid-saaka/Active_directory_deployment_and_setup"> Active directory deployment and setup</a>
 - <a href="https://github.com/kirkgacias/ad-user-generation">Active Directory: User Generation </a>
 
 <h2>Key Objectives</h2>
