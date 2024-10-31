@@ -22,3 +22,16 @@
 <h4>Troubleshooting Scenarios</h4>
 
 - Enhance troubleshooting skills by simulating user access issues and learning to resolve them effectively.
+
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines)
+- Remote Desktop
+- Active Directory Domain Services
+- Command Prompt
+
+<h2>Operating Systems Used </h2>
+
+- Windows (Windows Server 2019 Datacenter)
+- Windows (Windows 10 Pro)
+
