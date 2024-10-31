@@ -97,10 +97,23 @@ Objective: Organize the directory
 <h3>&#9315; Creating and Linking Group Policy Objects(GPOs)</h3>
 
 - From the Server Manager, click "Tools", and open Group Policy Management Console.
-- Right-click the domain or an OU and select "Create a GPO in this domain, and Link it
+- Right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
 here".
-- Name the GPO. We will deploy the 7Zip software in this GPO so let's name our GPO "7Zip Deployment"
+- Name the GPO. We will deploy the 7Zip software  so let's name our GPO "7Zip Deployment"
 - Right-click on the GPO and select "Edit".
+- Under "Computer Configuration", select "Policies" -> Software Settings -> Software Installation -> New -> Package
   
+![image](https://github.com/user-attachments/assets/90437acb-be56-4f3c-a38b-ce8e7f86658a)
 
+- Enter the network path of the installation file, select the file, and click "Open"
 
+![image](https://github.com/user-attachments/assets/0f6e6132-fb6c-47d3-9cff-d8fe00eee0a0)
+
+- Select "Assigned" and click "OK"
+
+  ![image](https://github.com/user-attachments/assets/9f3facf2-ac3d-4482-b4d1-82a1686f377e)
+
+  - Open the command prompt and run the command "gpupdate /force" for the GPO to be applied
+  - You can verify the GPO is applied correctly by running the command "gpresult /r"
+- Restart your PC for the changes to take effect.
+- Now every computer under the "domain.com" domain should have 7Zip installed
