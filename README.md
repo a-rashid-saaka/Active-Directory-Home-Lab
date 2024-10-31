@@ -44,32 +44,52 @@ Objective: Organize the directory
 
 - Right-click the domain name and select "New" -> Organizational Unit. We will create an OU called "domain.com"
   
-- Inside the "domain.com" OU, create nested OUs. Eg: Domain Computers, Domain Users, Domain Groups.
+- Inside the "domain.com" OU, create nested OUs. Eg., Domain Computers, Domain Users, Domain Groups.
+
+  
+  ![image](https://github.com/user-attachments/assets/e1421bb9-3b44-4922-9fa0-40f0465ae6ff)
+<br>
+<br>
+
 
 <h3>&#9313; Creating User Accounts</h3>
 
-- Navigate to the "Domain Users" domain, right-click and select "New" -> User
-  
+- Navigate to the "Domain Users" OU, right-click, and select "New" -> User
+
+
+  ![image](https://github.com/user-attachments/assets/b05dc567-2ba2-4a17-939f-27153baec336)
 - Fill in the user details: First Name, Last Name, User Logon Name
 
 - Set a password and configure the account settings
 
 - You can create more users following the steps above
 
-  
+  ![image](https://github.com/user-attachments/assets/1bc666ab-0460-44ff-84db-a357a2f7c28f)
+<br>
+<br>
+
 <h3>&#9314; Creating Groups</h3>
 
 
 - Navigate to the "Domain Groups" OU, right-click the OU, and select "New" -> Group.
 - Name the group, Eg., Sales Department, and select the group scope  and group type 
 
+![image](https://github.com/user-attachments/assets/c3b6e465-2064-4a4d-b748-5771d49f119f)
+
+![image](https://github.com/user-attachments/assets/e78a2525-1520-4694-9cdf-27199350856c)
 
 <h3>&#9315; Adding Users to Group</h3>
 
 - Double-click on a group to open the properties window
 -  Go to the "Members" tab and click on "Add"
 - Enter the name of a user and click "Check Names". Click on "Apply" and "Ok" to apply changes
+
+  ![image](https://github.com/user-attachments/assets/4fdf7dc8-04e4-4ef0-9082-b063ca14d37d)
+
 - Verify the membership in the "Members" tab of the group
+
+  ![image](https://github.com/user-attachments/assets/1f768c3e-1f12-4ee5-9863-3e85b36a04dd)
+
 - Do the same for other users you want to add to groups
 
 
