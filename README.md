@@ -35,3 +35,27 @@
 - Windows (Windows Server 2019 Datacenter)
 - Windows (Windows 10 Pro)
 
+  <h1>Scenarios</h1>
+
+<h3>&#9312; Creating Organizational Units(OUs) </h3>
+Objective: Organize the directory
+
+- From Server Manager, click on "Tools" -> Active Directory Users and Computers
+
+- Right-click the domain name and select "New" -> Organizational Unit. We will create an OU called "domain.com"
+  
+- Inside the "domain.com" OU, create nested OUs. Eg: Domain Computers, Domain Users, Domain Groups.
+
+<h3>&#9313; Creating User Accounts</h3>
+
+- Navigate to the "Domain Users" domain, right-click and select "New" -> User
+  
+- Fill in the user details: First Name, Last Name, User Logon Name
+
+- Set a password and configure the account settings
+
+- You can create more users following the steps above
+
+  
+
+
