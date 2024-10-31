@@ -77,6 +77,8 @@ Objective: Organize the directory
 ![image](https://github.com/user-attachments/assets/c3b6e465-2064-4a4d-b748-5771d49f119f)
 
 ![image](https://github.com/user-attachments/assets/e78a2525-1520-4694-9cdf-27199350856c)
+<br>
+<br>
 
 <h3>&#9315; Adding Users to Group</h3>
 
@@ -92,8 +94,13 @@ Objective: Organize the directory
 
 - Do the same for other users you want to add to groups
 
+<h3>&#9315; Creating and Linking Group Policy Objects(GPOs)</h3>
 
-
+- From the Server Manager, click "Tools", and open Group Policy Management Console.
+- Right-click the domain or an OU and select "Create a GPO in this domain, and Link it
+here".
+- Name the GPO. We will deploy the 7Zip software in this GPO so let's name our GPO "7Zip Deployment"
+- Right-click on the GPO and select "Edit".
   
 
 
