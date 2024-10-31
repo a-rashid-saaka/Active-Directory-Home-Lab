@@ -128,9 +128,14 @@ Objective: Organize the directory
 
 <h3>&#9317; Creating and Linking Group Policy Objects(GPOs)</h3>
 
-<strong>Before performing this task, make sure the software installer file is in a shared folder and accessible from the client PC</strong>
+<strong>Before performing this task, here are a few things to note: </strong>
+
+<strong>I. Make sure the software installer file is in a shared folder and accessible from the client PCs</strong>
+
+<strong>II. Move the client PCs from the Computers container to the "Domain Computers" OU you created</strong>
 <br>
 
+Creating the GPO
 - From the Server Manager, click "Tools", and open Group Policy Management Console.
 - Right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
 here".
