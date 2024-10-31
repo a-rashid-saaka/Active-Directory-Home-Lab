@@ -70,7 +70,6 @@ Objective: Organize the directory
 
 <h3>&#9314; Creating Groups</h3>
 
-
 - Navigate to the "Domain Groups" OU, right-click the OU, and select "New" -> Group.
 - Name the group, Eg., Sales Department, and select the group scope  and group type 
 
@@ -79,6 +78,7 @@ Objective: Organize the directory
 ![image](https://github.com/user-attachments/assets/e78a2525-1520-4694-9cdf-27199350856c)
 <br>
 <br>
+
 
 <h3>&#9315; Adding Users to Group</h3>
 
@@ -123,11 +123,14 @@ Objective: Organize the directory
 - Verify by logging into a client PC as an authenticated user. Then input the UNC path in File Explorer
   
   ![image](https://github.com/user-attachments/assets/da803e58-6ab7-4932-aeb3-888e6cb8c9e2)
-
+<br>
+<br>
 
 <h3>&#9317; Creating and Linking Group Policy Objects(GPOs)</h3>
-<strong>Before performing this task,make sure the software installer is in a shared folder and accessible from the client PC</strong>
+
+<strong>Before performing this task, make sure the software installer file is in a shared folder and accessible from the client PC</strong>
 <br>
+
 - From the Server Manager, click "Tools", and open Group Policy Management Console.
 - Right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
 here".
