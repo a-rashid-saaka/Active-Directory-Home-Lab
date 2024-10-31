@@ -57,5 +57,23 @@ Objective: Organize the directory
 - You can create more users following the steps above
 
   
+<h3>&#9314; Creating Groups</h3>
+
+
+- Navigate to the "Domain Groups" OU, right-click the OU, and select "New" -> Group.
+- Name the group, Eg., Sales Department, and select the group scope  and group type 
+
+
+<h3>&#9315; Adding Users to Group</h3>
+
+- Double-click on a group to open the properties window
+-  Go to the "Members" tab and click on "Add"
+- Enter the name of a user and click "Check Names". Click on "Apply" and "Ok" to apply changes
+- Verify the membership in the "Members" tab of the group
+- Do the same for other users you want to add to groups
+
+
+
+  
 
 
