@@ -116,7 +116,7 @@ here".
 
   ![image](https://github.com/user-attachments/assets/9f3facf2-ac3d-4482-b4d1-82a1686f377e)
 
-  - Open the command prompt and run the command "gpupdate /force" for the GPO to be applied
+  - Open the command prompt in the server PC and the client PCs in the domain, run the command "gpupdate /force" for the GPO to be applied
   - You can verify the GPO is applied correctly by running the command "gpresult /r"
 - Restart your PC for the changes to take effect.
 - Now every computer under the "domain.com" domain should have 7Zip installed
