@@ -93,8 +93,11 @@ Objective: Organize the directory
   ![image](https://github.com/user-attachments/assets/1f768c3e-1f12-4ee5-9863-3e85b36a04dd)
 
 - Do the same for other users you want to add to groups
+<br>
+<br>
 
-<h3>&#9315; Creating and Linking Group Policy Objects(GPOs)</h3>
+
+<h3>&#9316; Creating and Linking Group Policy Objects(GPOs)</h3>
 
 - From the Server Manager, click "Tools", and open Group Policy Management Console.
 - Right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
