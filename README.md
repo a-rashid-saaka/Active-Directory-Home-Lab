@@ -96,9 +96,38 @@ Objective: Organize the directory
 <br>
 <br>
 
+<h3>&#9316; Configuring File Sharing and Permissions</h3>
 
-<h3>&#9316; Creating and Linking Group Policy Objects(GPOs)</h3>
+- Create a folder named "ALL SHARES" on the C: drive.
+- Right-click the folder and select "Properties."
+- On the "Sharing" tab, click "Advanced Sharing."
+  
+  ![image](https://github.com/user-attachments/assets/a8cfc859-45e7-4070-94b8-02b4be95966b)
 
+- Check "Share this folder" and Click "Permissions" and set the share permissions
+
+  
+  ![image](https://github.com/user-attachments/assets/a911fb01-baec-48b4-a54b-2a1e2d403969)
+  
+- Remove "Everyone" and add "Authenticated Users" for security.
+
+  
+  ![image](https://github.com/user-attachments/assets/5f527891-97f3-4a43-ada8-11de09f80163)
+  
+- In the folder properties, go to the "Security" tab.
+  - Click "Edit" to modify the permissions.
+  - Add the appropriate users or groups and assign the necessary permissions
+    
+    ![image](https://github.com/user-attachments/assets/534660b0-97fb-4976-88a7-b3770ca09b8b)
+    
+- Verify by logging into a client PC as an authenticated user. Then input the UNC path in File Explorer
+  
+  ![image](https://github.com/user-attachments/assets/da803e58-6ab7-4932-aeb3-888e6cb8c9e2)
+
+
+<h3>&#9317; Creating and Linking Group Policy Objects(GPOs)</h3>
+<strong>Before performing this task,make sure the software installer is in a shared folder and accessible from the client PC</strong>
+<br>
 - From the Server Manager, click "Tools", and open Group Policy Management Console.
 - Right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
 here".
