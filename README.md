@@ -38,7 +38,7 @@
   <h1>Scenarios</h1>
 
 <h3>&#9312; Creating Organizational Units(OUs) </h3>
-Objective: Organize the directory
+<strong>Objective:</strong> Organize the directory
 
 - From Server Manager, click on "Tools" -> Active Directory Users and Computers
 
@@ -53,6 +53,7 @@ Objective: Organize the directory
 
 
 <h3>&#9313; Creating User Accounts</h3>
+<strong>Objective:</strong> Create user accounts with specific attributes
 
 - Navigate to the "Domain Users" OU, right-click, and select "New" -> User
 
@@ -70,6 +71,9 @@ Objective: Organize the directory
 
 <h3>&#9314; Creating Groups</h3>
 
+<strong>Objective:</strong>  Create security and distribution groups
+
+
 - Navigate to the "Domain Groups" OU, right-click the OU, and select "New" -> Group.
 - Name the group, Eg., Sales Department, and select the group scope  and group type 
 
@@ -82,6 +86,8 @@ Objective: Organize the directory
 
 
 <h3>&#9315; Adding Users to Group</h3>
+<strong>Objective:</strong>  Group membership management
+
 
 - Double-click on a group to open the properties window
 -  Go to the "Members" tab and click on "Add"
@@ -98,6 +104,8 @@ Objective: Organize the directory
 <br>
 
 <h3>&#9316; Configuring File Sharing and Permissions for Users</h3>
+<strong>Objective:</strong>   Set up file sharing within the AD environment
+
 
 - Create a folder named "ALL SHARES" on the C: drive.
 - Right-click the folder and select "Properties."
@@ -182,6 +190,9 @@ Security filtering and delegation
 
   
 <h3>&#9318; Creating and Linking Group Policy Objects(GPOs)</h3>
+<strong>Objective:</strong> Create and link policies to OUs.
+
+
 
 <strong>Before performing this task, here are a few things to note: </strong>
 
