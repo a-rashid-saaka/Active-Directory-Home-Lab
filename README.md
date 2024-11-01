@@ -6,7 +6,7 @@
 
 
 
-<p>Welcome to the "Active Directory: Home Lab" project, where we will simulate scenarios to improve our understanding of user provisioning and administration within Active Directory..</p>
+<p>Welcome to the "Active Directory: Home Lab" project, where we will carry out various hands-on activities to improve our understanding of user provisioning and administration within Active Directory.</p>
 
 <h2>Prerequisites</h2>
 
