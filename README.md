@@ -154,7 +154,7 @@ Objective: Organize the directory
 <strong>II. Move the client PCs from the Computers container to the "Domain Computers" OU you created</strong>
 <br>
 
-Creating the GPO
+Creating and linking the GPO
 - From the Server Manager, click "Tools", and open Group Policy Management Console.
 - Right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
 here".
