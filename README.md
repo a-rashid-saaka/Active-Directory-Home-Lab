@@ -96,7 +96,7 @@ Objective: Organize the directory
 <br>
 <br>
 
-<h3>&#9316; Configuring File Sharing and Permissions</h3>
+<h3>&#9316; Configuring File Sharing and Permissions for Users</h3>
 
 - Create a folder named "ALL SHARES" on the C: drive.
 - Right-click the folder and select "Properties."
@@ -126,7 +126,26 @@ Objective: Organize the directory
 <br>
 <br>
 
-<h3>&#9317; Creating and Linking Group Policy Objects(GPOs)</h3>
+<h3>&#9317; Configuring File Sharing and Permissions for Groups</h3>
+
+- From the Server Manager, select "File and Storage Services" -> Shares -> right-click an empty space and select "New Share" 
+
+
+![image](https://github.com/user-attachments/assets/a572cf94-358f-4e0b-9a6c-404b5daaea61)
+
+- Select SMB Share-Quick -> Select a volume -> Enter a name and a description for the Share -> Configure the Share settings -> Customize Share permissions(this is where you add the group you are creating the file share for), and follow the prompt to create the share
+
+![image](https://github.com/user-attachments/assets/3bb4bd92-cbbf-485f-9d98-dc8267a597c0)
+
+- Follow the same steps to create a file share for other groups
+  
+  ![image](https://github.com/user-attachments/assets/e79c4101-bbf9-420d-8e1d-23787465214b)
+
+- Verify by logging into a client PC as a member of one group and try accessing the file share. Members should only be able to access the folders assigned to their group.
+<br>
+<br>
+
+<h3>&#9318; Creating and Linking Group Policy Objects(GPOs)</h3>
 
 <strong>Before performing this task, here are a few things to note: </strong>
 
