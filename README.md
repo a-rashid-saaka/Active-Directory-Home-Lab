@@ -129,7 +129,7 @@ Objective: Organize the directory
 
 <h3>&#9317; Configuring File Sharing and Permissions for Groups</h3>
 
-- From the Server Manager, select "File and Storage Services" -> Shares -> right-click an empty space and select "New Share" 
+- From the Server Manager, select "File and Storage Services" -> Shares -> right-click a space and select "New Share" 
 
 
 ![image](https://github.com/user-attachments/assets/a572cf94-358f-4e0b-9a6c-404b5daaea61)
@@ -150,7 +150,7 @@ Objective: Organize the directory
 Creating a shared folder
 
 - In the "Active Directory Users and Computers" window, right-click on a domain or OU -> New -> Shared Folder
-- In the pop up window, enter the name and network path of the shared folder
+- In the pop-up window, enter the name and network path of the shared folder
 
 ![image](https://github.com/user-attachments/assets/ac155640-e5d3-4730-99b8-a41ca116dc6a)
 
@@ -162,19 +162,19 @@ here".
 - Right the GPO and select "Edit" -> User Configuration -> Preferences -> Windows Settings -> right-click "Drive Maps" -> New -> Mapped Drive
 
   ![image](https://github.com/user-attachments/assets/e9ad6d1e-556b-4813-a818-ff68d630b785)
-- From the popup window, select browse(three dots beside the location box), and select the shared folder we created in the steps above and click ok
+- From the popup window, select browse(three dots beside the location box), select the shared folder we created in the steps above, and click ok
 - In the next window, select a drive letter and check the "Reconnect" box
 - Click "Apply" and "OK"
     
 ![image](https://github.com/user-attachments/assets/d767caf9-841b-4cc6-a323-b393adc97219)
 
 Security filtering and delegation
-- In the "Security Filtering" pane,remove "Authenticated Users" and add the specific group,in this case, HR Department
+- In the "Security Filtering" pane, remove "Authenticated Users" and add the specific group, in this case, HR Department
   
   ![image](https://github.com/user-attachments/assets/fcf00767-565e-4f8d-bbd8-a1ff77a341b4)
-- You can add the "Authenticated Users" grant them "Read" permission in the "Delegation" tab
-- Log into one of the client PCs as a member of the HR Department, run the command "gpupdate /force" in command prompt.
-- Confirm from File Explorer that the drive has been succesfully mapped
+- You can add the "Authenticated Users" and grant them "Read" permission in the "Delegation" tab
+- Log into one of the client PCs as a member of the HR Department and run the command "gpupdate /force" at the command prompt.
+- Confirm from File Explorer that the drive has been successfully mapped
   
     ![image](https://github.com/user-attachments/assets/4a9db0d8-a0ff-4e1f-b778-6a5eac821ec7)
   <br>
@@ -192,8 +192,8 @@ Security filtering and delegation
 
 Creating and linking the GPO
 
-- From the Server Manager, click "Tools", and open "Group Policy Management" console.
-- Right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
+- From the Server Manager, click "Tools", and open the "Group Policy Management" console.
+- Right-click the domain or an OU, select "Create a GPO in this domain, and Link it
 here".
 - Name the GPO. We will deploy the 7Zip software  so let's name our GPO "7Zip Deployment"
 - Right-click on the GPO and select "Edit".
@@ -211,5 +211,5 @@ here".
 
   - Open the command prompt in the server PC and the client PCs in the domain, run the command "gpupdate /force" for the GPO to be applied
   - You can verify the GPO is applied correctly by running the command "gpresult /r"
-- Restart your PC for the changes to take effect.
+- Restart your PC so the changes take effect.
 - Now every computer under the "domain.com" domain should have 7Zip installed
