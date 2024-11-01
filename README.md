@@ -145,6 +145,18 @@ Objective: Organize the directory
 <br>
 <br>
 
+<h3>&#9317; Map Network Drives via Group Policy</h3>
+Creating a shared folder
+
+- In the "Active Directory Users and Computers" window, right-click on a domain or OU -> New -> Shared Folder
+- In the pop up window, enter the name and network path of the shared folder
+
+![image](https://github.com/user-attachments/assets/ac155640-e5d3-4730-99b8-a41ca116dc6a)
+
+
+
+
+
 <h3>&#9318; Creating and Linking Group Policy Objects(GPOs)</h3>
 
 <strong>Before performing this task, here are a few things to note: </strong>
@@ -155,6 +167,7 @@ Objective: Organize the directory
 <br>
 
 Creating and linking the GPO
+
 - From the Server Manager, click "Tools", and open Group Policy Management Console.
 - Right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
 here".
