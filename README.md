@@ -153,7 +153,14 @@ Creating a shared folder
 
 ![image](https://github.com/user-attachments/assets/ac155640-e5d3-4730-99b8-a41ca116dc6a)
 
+Creating and linking the GPO
 
+- Inside "Group Policy Management", right-click a domain or OU and select "Create a GPO in this domain, and Link it
+here".
+- Name the GPO. Let's call our GPO HR Mapped Drive
+- Right the GPO and select "Edit" -> User Configuration -> Preferences -> Windows Settings -> right-click "Drive Maps" -> New -> Mapped Drive
+
+  ![image](https://github.com/user-attachments/assets/e9ad6d1e-556b-4813-a818-ff68d630b785)
 
 
 
@@ -168,7 +175,7 @@ Creating a shared folder
 
 Creating and linking the GPO
 
-- From the Server Manager, click "Tools", and open Group Policy Management Console.
+- From the Server Manager, click "Tools", and open "Group Policy Management" console.
 - Right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
 here".
 - Name the GPO. We will deploy the 7Zip software  so let's name our GPO "7Zip Deployment"
