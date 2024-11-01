@@ -76,6 +76,7 @@ Objective: Organize the directory
 ![image](https://github.com/user-attachments/assets/c3b6e465-2064-4a4d-b748-5771d49f119f)
 
 ![image](https://github.com/user-attachments/assets/e78a2525-1520-4694-9cdf-27199350856c)
+
 <br>
 <br>
 
@@ -157,7 +158,7 @@ Creating and linking the GPO
 
 - Inside "Group Policy Management", right-click a domain or OU and select "Create a GPO in this domain, and Link it
 here".
-- Name the GPO. Let's call our GPO HR Mapped Drive
+- Name the GPO. Let's call our GPO "HR Mapped Drive"
 - Right the GPO and select "Edit" -> User Configuration -> Preferences -> Windows Settings -> right-click "Drive Maps" -> New -> Mapped Drive
 
   ![image](https://github.com/user-attachments/assets/e9ad6d1e-556b-4813-a818-ff68d630b785)
@@ -167,7 +168,19 @@ here".
     
 ![image](https://github.com/user-attachments/assets/d767caf9-841b-4cc6-a323-b393adc97219)
 
-    
+Security filtering and delegation
+- In the "Security Filtering" pane,remove "Authenticated Users" and add the specific group,in this case, HR Department
+  
+  ![image](https://github.com/user-attachments/assets/fcf00767-565e-4f8d-bbd8-a1ff77a341b4)
+- You can add the "Authenticated Users" grant them "Read" permission in the "Delegation" tab
+- Log into one of the client PCs as a member of the HR Department, run the command "gpupdate /force" in command prompt.
+- Confirm from File Explorer that the drive has been succesfully mapped
+  
+    ![image](https://github.com/user-attachments/assets/4a9db0d8-a0ff-4e1f-b778-6a5eac821ec7)
+  <br>
+  <br>
+
+  
 <h3>&#9318; Creating and Linking Group Policy Objects(GPOs)</h3>
 
 <strong>Before performing this task, here are a few things to note: </strong>
