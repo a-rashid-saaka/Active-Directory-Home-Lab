@@ -161,9 +161,13 @@ here".
 - Right the GPO and select "Edit" -> User Configuration -> Preferences -> Windows Settings -> right-click "Drive Maps" -> New -> Mapped Drive
 
   ![image](https://github.com/user-attachments/assets/e9ad6d1e-556b-4813-a818-ff68d630b785)
+- From the popup window, select browse(three dots beside the location box), and select the shared folder we created in the steps above and click ok
+- In the next window, select a drive letter and check the "Reconnect" box
+- Click "Apply" and "OK"
+    
+![image](https://github.com/user-attachments/assets/d767caf9-841b-4cc6-a323-b393adc97219)
 
-
-
+    
 <h3>&#9318; Creating and Linking Group Policy Objects(GPOs)</h3>
 
 <strong>Before performing this task, here are a few things to note: </strong>
