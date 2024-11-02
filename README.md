@@ -169,7 +169,7 @@ Creating and linking the GPO
 - Inside "Group Policy Management", right-click a domain or OU and select "Create a GPO in this domain, and Link it
 here".
 - Name the GPO. Let's call our GPO "HR Mapped Drive"
-- Right the GPO and select "Edit" -> User Configuration -> Preferences -> Windows Settings -> right-click "Drive Maps" -> New -> Mapped Drive
+- Right-click the GPO and select "Edit" -> User Configuration -> Preferences -> Windows Settings -> right-click "Drive Maps" -> New -> Mapped Drive
 
   ![image](https://github.com/user-attachments/assets/e9ad6d1e-556b-4813-a818-ff68d630b785)
 - From the popup window, select browse(three dots beside the location box), select the shared folder we created in the steps above, and click ok
@@ -202,13 +202,12 @@ Security filtering and delegation
 
 <strong>I. Make sure the software installer file is in a shared folder and accessible from the client PCs</strong>
 
-<strong>II. Move the client PCs from the Computers container to the "Domain Computers" OU you created</strong>
+<strong>II. Move the client PCs from the "Computers" container to the "Domain Computers" OU you created</strong>
 <br>
 
 Creating and linking the GPO
 
-- From the Server Manager, click "Tools", and open the "Group Policy Management" console.
-- Right-click the domain or an OU, select "Create a GPO in this domain, and Link it
+- Open the "Group Policy Management" console, right-click the domain or an OU, and select "Create a GPO in this domain, and Link it
 here".
 - Name the GPO. We will deploy the 7Zip software  so let's name our GPO "7Zip Deployment"
 - Right-click on the GPO and select "Edit".
@@ -235,7 +234,7 @@ here".
 <h3>&#9319; Account Lockout Policy Configuration</h3>
 
 <strong>Objective:</strong> Set up account lockout policies to enhance security.
-- Open "Group Policy Management", under your domain, right-click "Default Domain Policy" and select "Edit"
+- Under your domain in the "Group Policy Management" console, right-click "Default Domain Policy" and select "Edit"
 - Navigate to "Computer Configuration" > Policies > Windows Settings >
 Security Settings > Account Policies > Account Lockout Policy.
 - Configure the settings E.g., Account lockout threshold, Account lockout duration,
@@ -247,7 +246,7 @@ Reset account lockout counter after.
 <br>
 <br>
 
-<h3>&#9319; Troubleshooting Common Issues</h3>
+<h3>&#9320; Troubleshooting Common Issues</h3>
 <strong>Objective:</strong> Troubleshoot some common account issues
 <br>
 <br>
@@ -262,7 +261,7 @@ I. Account Lockout
 
 Steps taken
 - Inside "Active Directory Users and Computers", select "Find objects in Active Directory Domain Services" at the top menu.
-- Select what object you want to find and from what domain, OU, etc. In our case, we want to see Jon Snow, a user of the domain.com OU.
+- Select what object you want to find and from what domain, OU, etc. In our case, we want to see Jon Snow, a user of the "domain.com" OU.
 - Enter the name and select "Find Now", the name should appear in the search result pane.
 - Right-click on the name and select "Properties" -> Account -> check the "Unlock Account" check box.
 - Click on apply and okay
