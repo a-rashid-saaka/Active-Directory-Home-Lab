@@ -282,4 +282,15 @@ Steps Taken
 - Enter a new password and a confirmation password. Check the "Unlock the user's account" box if the user is locked out, and click on "OK" to save changes
 
   ![image](https://github.com/user-attachments/assets/613b64b6-630f-4669-a546-3aa198d98b3b)
+
+<br>
+<br>
+
+
+<h2> Conclusion </h2>
+
+<p>
+In summary, Active Directory plays a vital role in managing user accounts and network resources. The hands-on activities included common IT help desk tasks, such as creating user and group accounts, adding users to groups, resetting passwords, and unlocking user accounts. Additionally, we covered the configuration of Group Policy Objects (GPOs) and the setup of network file sharing. These practical exercises are essential for training IT personnel and emphasize the importance of Active Directory in maintaining a secure and organized digital environment. </p>
+
+
   
