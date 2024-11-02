@@ -162,6 +162,8 @@ Creating a shared folder
 
 ![image](https://github.com/user-attachments/assets/ac155640-e5d3-4730-99b8-a41ca116dc6a)
 
+<br>
+
 Creating and linking the GPO
 
 - Inside "Group Policy Management", right-click a domain or OU and select "Create a GPO in this domain, and Link it
@@ -175,6 +177,8 @@ here".
 - Click "Apply" and "OK"
     
 ![image](https://github.com/user-attachments/assets/d767caf9-841b-4cc6-a323-b393adc97219)
+
+<br>
 
 Security filtering and delegation
 - In the "Security Filtering" pane, remove "Authenticated Users" and add the specific group, in this case, HR Department
@@ -224,12 +228,59 @@ here".
   - You can verify the GPO is applied correctly by running the command "gpresult /r"
 - Restart your PC so the changes take effect.
 - Now every computer under the "domain.com" domain should have 7Zip installed
-<h3>&#9319; Account Lockout Policy Configuration(GPOs)</h3>
+  
+  <br>
+  <br>
+  
+<h3>&#9319; Account Lockout Policy Configuration</h3>
 
-● Objective: Set up account lockout policies to enhance security.
-1. Open "Group Policy Management", under your domain,right-click "Default Domain Policy" and select "Edit"
-
-○ Navigate to "Computer Configuration" > Policies > Windows Settings >
+<strong>Objective:</strong> Set up account lockout policies to enhance security.
+- Open "Group Policy Management", under your domain, right-click "Default Domain Policy" and select "Edit"
+- Navigate to "Computer Configuration" > Policies > Windows Settings >
 Security Settings > Account Policies > Account Lockout Policy.
-○ Configure the settings (e.g., Account lockout threshold, Account lockout duration,
-Reset account lockout counter after).
+- Configure the settings E.g., Account lockout threshold, Account lockout duration,
+Reset account lockout counter after.
+
+
+![image](https://github.com/user-attachments/assets/c308dc07-0910-4e7e-86fc-d7311c762bdc)
+
+<br>
+<br>
+
+<h3>&#9319; Troubleshooting Common Issues</h3>
+<strong>Objective:</strong> Troubleshoot some common account issues
+<br>
+<br>
+
+I. Account Lockout 
+
+
+<strong>A user named Jon Snow is locked out of his account after multiple failed login attempts. As a help desk agent, you are responsible for unlocking the user's account to restore access.</strong>
+
+![image](https://github.com/user-attachments/assets/a0012e32-4491-4ac3-9078-e2149576a6a5)
+
+
+Steps taken
+- Inside "Active Directory Users and Computers", select "Find objects in Active Directory Domain Services" at the top menu.
+- Select what object you want to find and from what domain, OU, etc. In our case, we want to see Jon Snow, a user of the domain.com OU.
+- Enter the name and select "Find Now", the name should appear in the search result pane.
+- Right-click on the name and select "Properties" -> Account -> check the "Unlock Account" check box.
+- Click on apply and okay
+  
+  ![image](https://github.com/user-attachments/assets/cfdd14a4-3326-4a2e-9200-64b159fa435b)
+  
+- Jon Snow should be able to log in now
+<br>
+
+
+II. Password Reset
+
+<strong>A user named Big Rich can't seem to remember his password. He has contacted the help desk for a solution to this issue</strong>
+
+Steps Taken
+- Follow the steps in the Account Lockout to find the user
+- Right-click on the name and select "Reset Password"
+- Enter a new password and a confirmation password. Check the "Unlock the user's account" box if the user is locked out, and click on "OK" to save changes
+
+  ![image](https://github.com/user-attachments/assets/613b64b6-630f-4669-a546-3aa198d98b3b)
+  
