@@ -224,3 +224,12 @@ here".
   - You can verify the GPO is applied correctly by running the command "gpresult /r"
 - Restart your PC so the changes take effect.
 - Now every computer under the "domain.com" domain should have 7Zip installed
+<h3>&#9319; Account Lockout Policy Configuration(GPOs)</h3>
+
+● Objective: Set up account lockout policies to enhance security.
+1. Open "Group Policy Management", under your domain,right-click "Default Domain Policy" and select "Edit"
+
+○ Navigate to "Computer Configuration" > Policies > Windows Settings >
+Security Settings > Account Policies > Account Lockout Policy.
+○ Configure the settings (e.g., Account lockout threshold, Account lockout duration,
+Reset account lockout counter after).
