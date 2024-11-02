@@ -15,11 +15,11 @@
 - <a href="https://github.com/a-rashid-saaka/Active-Directory-user-creation">Active Directory Bulk User Account Creation </a>
 <h2> Objectives</h2>
 
-<h4>Scenario Simulation</h4>
+<h4>Hands-on Activities</h4>
 
-- Participate in practical simulations of various scenarios, such as file sharing and creating Group Policy Objects (GPOs).
-
-<h4>Troubleshooting Scenarios</h4>
+- Engage in practical hands-on activities, such as network file sharing and creating Group Policy Objects (GPOs).
+  
+<h4>Troubleshooting </h4>
 
 - Enhance troubleshooting skills by simulating user access issues and learning to resolve them effectively.
 
@@ -35,7 +35,7 @@
 - Windows (Windows Server 2019 Datacenter)
 - Windows (Windows 10 Pro)
 
-  <h1>Scenarios</h1>
+  <h1>Hands-on Activities</h1>
 
 <h3>&#9312; Creating Organizational Units(OUs) </h3>
 <strong>Objective:</strong> Organize the directory
