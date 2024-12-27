@@ -1,4 +1,7 @@
-![image](https://github.com/user-attachments/assets/5021964c-770d-4dcd-a651-c803c0911ba1)
+<p align="center">
+<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+</p>
+
 
 <h1 align='center'> Active Directory: Home Lab</h1>
 
